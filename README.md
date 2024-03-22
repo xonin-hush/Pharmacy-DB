@@ -29,3 +29,7 @@ exit
 ```
 sudo snap install mysql-workbench-community
 ```
+## How to install Tkinter on Ubuntu Linux or distros with apt
+
+```bash
+sudo apt-get install python3-tk
