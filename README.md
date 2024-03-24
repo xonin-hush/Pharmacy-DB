@@ -33,3 +33,10 @@ sudo snap install mysql-workbench-community
 
 ```bash
 sudo apt-get install python3-tk
+```
+## How to use mysql commandLine after setting a password
+- Start it up
+```bash
+mysql -r root -p
+```
+- Enter the password
