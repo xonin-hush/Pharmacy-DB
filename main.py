@@ -291,7 +291,6 @@ def login_to_main_win():
             command = "SELECT * FROM login WHERE Username=%s AND Password=%s"
             mycursor.execute(command, (ent_username.get(), ent_password.get()))
             myresult = mycursor.fetchone()
-            print(myresult)
             if myresult is None:
                 messagebox.showinfo("invalid", "Invalid username and password")
 
